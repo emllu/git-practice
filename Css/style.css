@@ -2,14 +2,11 @@
 body{
     background-color: rgb(44, 49, 105);
 }
-header{
-    background-color: antiquewhite;
-    color: black;
+
+ul {
+   display:flex;
+    justify-content: space-between;
 }
- .head ul{
-    display: flex;
-}
-.head ul li {
-    padding: 15px;
+li{
     list-style: none;
 }
